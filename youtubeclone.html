@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>YouTube</title>
+    <link rel="stylesheet" href="youtubeclone.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <header>
+        <div class="navbar">
+            <div class="navbar_div">
+                <div class="icon_cont">
+                    <i class="fa-solid fa-bars" id="menu"></i>
+                </div>
+                <div class="nav-logo">
+                    <div class="logo"></div>
+                </div>
+            </div>
+            <div class="navbar_div">
+                <div class="nav-search">
+                    <input placeholder="    Search" class="search-input" />
+                    <div class="search-icon">
+                        <i class="fa-solid fa-magnifying-glass" id="search"></i>
+                    </div>
+                </div>
+                <div class="microphone">
+                    <i class="fa-solid fa-microphone" id="micro"></i>
+                </div>
+            </div>
+            <div class="navbar_div">
+                <div class="icon">
+                    <i class="fa-solid fa-video" id="icon"></i>
+                </div>
+                <div class="icon">
+                    <i class="fa-regular fa-bell" id="icon"></i>
+                </div>
+                <div class="icon user">
+                    <i class="fa-solid fa-user" id="icon"></i>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="main_container">
+        <div class="side-nav">
+            <div class="side-icons">
+                <i class="fa-solid fa-house"></i>
+                <p>Home</p>
+            </div>
+            <div class="side-icons">
+                <i class="fa-solid fa-play"></i>
+                <p>Shorts</p>
+            </div>
+            <div class="side-icons">
+                <i class="fa-solid fa-clapperboard"></i>
+                <p>Subscriptions</p>
+            </div>
+            <div class="breaker"><span></span></div>
+            <div class="side-icons" id="heading">
+                <p><b>You ></b></p>
+            </div>
+            <div class="side-icons">
+                <i class="fa-solid fa-user-tag"></i>
+                <p>Your Channel</p>
+            </div>
+            <div class="side-icons">
+                <i class="fa-solid fa-clock-rotate-left"></i>
+                <p>History</p>
+            </div>
+            <div class="side-icons">
+                <i class="fa-solid fa-clapperboard"></i>
+                <p>Subscriptions</p>
+            </div>
+            <div class="side-icons">
+                <i class="fa-regular fa-clock"></i>
+                <p>Watch later</p>
+            </div>
+            <div class="side-icons">
+                <i class="fa-solid fa-circle-chevron-down"></i>
+                <p>Show more</p>
+            </div>
+            <div class="breaker"><span></span></div>
+            <div class="side-icons" id="heading">
+                <p><b>Subscriptions</b></p>
+            </div>
+            <div class="side-icons">
+                <img src="https://yt3.ggpht.com/nhDLqeIgXMJBDIrX2bXavvHoWX0tsslDEh7k2xZ1P0W8b_CMRVigp2kxJubYEVwBcBlogZDe=s88-c-k-c0x00ffffff-no-rj"
+                    alt="">
+                <p>Apna College</p>
+            </div>
+            <div class="side-icons">
+                <img src="aevytv.jpg" alt="">
+                <p>Aevy TV</p>
+            </div>
+            <div class="side-icons">
+                <img src="nitishrajput.jpg" alt="">
+                <p>Nitish Rajput</p>
+            </div>
+            <div class="side-icons">
+                <img src="dino.jpg" alt="">
+                <p>Dino James</p>
+            </div>
+            <div class="side-icons">
+                <img src="pw.jpg" alt="">
+                <p>Physics Wallah - Alakh Pandey</p>
+            </div>
+            <div class="side-icons">
+                <i class="fa-solid fa-circle-chevron-down"></i>
+                <p>Show more</p>
+            </div>
+            <div class="breaker"><span></span></div>
+            <div class="side-icons" id="heading">
+                <p><b>Explore</b></p>
+            </div>
+            <div class="side-icons">
+                <i class="fa-solid fa-fire"></i>
+                <p>Trending</p>
+            </div>
+            <div class="side-icons">
+                <i class="fa-solid fa-shopping-bag"></i>
+                <p>Shopping</p>
+            </div>
+            <div class="side-icons">
+                <i class="fa-solid fa-music"></i>
+                <p>Music</p>
+            </div>
+            <div class="side-icons">
+                <i class="fa-solid fa-film"></i>
+                <p>Films</p>
+            </div>
+            <div class="side-icons">
+                <i class="fa-solid fa-cloud"></i>
+                <p>Live</p>
+            </div>
+            <div class="side-icons">
+                <i class="fa-solid fa-gamepad"></i>
+                <p>Gaming</p>
+            </div>
+            <div class="side-icons">
+                <i class="fa-solid fa-newspaper"></i>
+                <p>News</p>
+            </div>
+            <div class="side-icons">
+                <i class="fa-solid fa-person-running"></i>
+                <p>Sports</p>
+            </div>
+            <div class="side-icons">
+                <i class="fa-solid fa-lightbulb"></i>
+                <p>Learning</p>
+            </div>
+            <div class="side-icons">
+                <i class="fa-solid fa-shirt"></i>
+                <p>Fashion</p>
+            </div>
+            <div class="side-icons">
+                <i class="fa-solid fa-podcast"></i>
+                <p>Podcasts</p>
+            </div>
+            <div class="breaker"><span></span></div>
+            <div class="side-icons">
+                <i class="fa-solid fa-gear"></i>
+                <p>Settings</p>
+            </div>
+            <div class="side-icons">
+                <i class="fa-solid fa-flag"></i>
+                <p>Report history</p>
+            </div>
+            <div class="side-icons">
+                <i class="fa-solid fa-circle-question"></i>
+                <p>Help</p>
+            </div>
+            <div class="side-icons">
+                <i class="fa-solid fa-triangle-exclamation"></i>
+                <p>Send feedback</p>
+            </div>
+            <div class="breaker"><span></span></div>
+            <div>
+                <p id="TermsPrivacyPolicy">TermsPrivacyPolicy & Safety</p>
+                <p id="TermsPrivacyPolicy">How YouTube works</p>
+                <p id="TermsPrivacyPolicy">Test new features</p>
+                <p id="TermsPrivacyPolicy">© 2024 Google LLC</p>
+            </div>
+        </div>
+        <div class="right-container">
+            <div class="selector">
+                <div class="sel-text">
+                    <p>All</p>
+                </div>
+                <div class="sel-text">
+                    <p>Wickets</p>
+                </div>
+                <div class="sel-text">
+                    <p>Music</p>
+                </div>
+                <div class="sel-text">
+                    <p>Mixes</p>
+                </div>
+                <div class="sel-text">
+                    <p>Sitcoms</p>
+                </div>
+                <div class="sel-text">
+                    <p>Live</p>
+                </div>
+                <div class="sel-text">
+                    <p>History</p>
+                </div>
+                <div class="sel-text">
+                    <p>News</p>
+                </div>
+                <div class="sel-text">
+                    <p>CSE</p>
+                </div>
+                <div class="sel-text">
+                    <p>NEET</p>
+                </div>
+                <div class="sel-text">
+                    <p>Lectures</p>
+                </div>
+                <div class="sel-text">
+                    <p>Shri Ram</p>
+                </div>
+                <div class="sel-text">
+                    <p>Modi</p>
+                </div>
+                <div class="sel-text">
+                    <p>Recent</p>
+                </div>
+                <div class="sel-text">
+                    <p>New</p>
+                </div>
+            </div>
+            <div class="content">
+                <div class="card">
+                    <div class="card-image1"></div>
+                    <div class="accurate">
+                        <div class="abc"><img src="sonyliv.jpg" class="channel-profile"></div>
+                        <div class="xyz">
+                            <p><b>Akshay Kumar | The Kapil Sharma show Season 2</b></p>
+                            <p id="short">Sony LIV <i class="fa-solid fa-circle-check"></i></p>
+                            <p id="short">4.6M views &#8226; 1 year ago</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-image2"></div>
+                    <div class="accurate">
+                        <div class="abc"><img src="nitishrajput.jpg" class="channel-profile"></div>
+                        <div class="xyz">
+                            <p><b>Why Dollar Is A Global Currency? | Nitish Rajput</b></p>
+                            <p id="short">Nitish Rajput <i class="fa-solid fa-circle-check"></i></p>
+                            <p id="short">2.9M views &#8226; 1 month ago</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-image3"></div>
+                    <div class="accurate">
+                        <div class="abc"><img src="sonypal.jpg" class="channel-profile"></div>
+                        <div class="xyz">
+                            <p><b>Taarak Mehta Ka Ooltah Chashmah | Episode 2124</b></p>
+                            <p id="short">Sony PAL <i class="fa-solid fa-circle-check"></i></p>
+                            <p id="short">199K views &#8226; 2 years ago</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="content">
+                <div class="card">
+                    <div class="card-image4"></div>
+                    <div class="accurate">
+                        <div class="abc"><img src="aevytv.jpg" class="channel-profile"></div>
+                        <div class="xyz">
+                            <p><b>Why Studying In America Will Kill Your Career | H1B Trap: Explained with data</b></p>
+                            <p id="short">Aevy TV <i class="fa-solid fa-circle-check"></i></p>
+                            <p id="short">331K views &#8226; 4 days ago</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-image5"></div>
+                    <div class="accurate">
+                        <div class="abc"><img src="ecb.jpg" class="channel-profile"></div>
+                        <div class="xyz">
+                            <p><b>MS Dhoni - Master Finisher | England v India 2011 - Highlights</b></p>
+                            <p id="short">England & Wales Cricket Board <i class="fa-solid fa-circle-check"></i></p>
+                            <p id="short">5.3M views &#8226; 5 years ago</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-image6"></div>
+                    <div class="accurate">
+                        <div class="abc"><img src="dino.jpg" class="channel-profile"></div>
+                        <div class="xyz">
+                            <p><b>11:11 | Dino James x GD 47 | official video | Def Jam India</b></p>
+                            <p id="short">Dino James <i class="fa-solid fa-circle-check"></i></p>
+                            <p id="short">617K views &#8226; 1 months ago</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="shortsbox">
+                <div class="headshorts">
+                    <div><img src="logoshorts.png" class="editme"></div>
+                    <div>
+                        <p>Shorts</p>
+                    </div>
+                </div>
+                <div class="shorts-content">
+                    <div class="shorts-card">
+                        <div class="img-container">
+                            <img src="./shortsyt1.jpg" alt="">
+                        </div>
+                        <div class="desc">
+                            <span class="title">Kerala Story: 75 Lakh to 14000 crores?
+                            </span>
+                            <span class="views">148K views</span>
+                        </div>
+                    </div>
+                    <div class="shorts-card">
+                        <div class="img-container">
+                            <img src="./shortsyt2.jpg" alt="">
+                        </div>
+                        <div class="desc">
+                            <span class="title">Did Congress Fu** Up Our Country? @ThinkSchool</span>
+                            <span class="views">428K views</span>
+                        </div>
+                    </div>
+                    <div class="shorts-card">
+                        <div class="img-container">
+                            <img src="./shortsyt3.jpg" alt="">
+                        </div>
+                        <div class="desc">
+                            <span class="title">Come travel with us | NASTRAVELS.</span>
+                            <span class="views">430K views</span>
+                        </div>
+                    </div>
+                    <div class="shorts-card">
+                        <div class="img-container">
+                            <img src="./shortsyt4.jpg" alt="">
+                        </div>
+                        <div class="desc">
+                            <span class="title">The Founders of 'RodBez' Share a Story!</span>
+                            <span class="views">59K views</span>
+                        </div>
+                    </div>
+                    <div class="shorts-card">
+                        <div class="img-container">
+                            <img src="./shortsyt5.jpg" alt="">
+                        </div>
+                        <div class="desc">
+                            <span class="title">The Truth Behind Alpha Males!</span>
+                            <span class="views">575K views</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
